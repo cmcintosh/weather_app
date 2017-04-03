@@ -81,12 +81,6 @@
     <Folder Include="Scripts\events\" />
     <Folder Include="Scripts\net\" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\RestApi\RestApi.csproj">
-      <Project>{b66ee8fe-499b-40fb-85c0-0178b6566d95}</Project>
-      <Name>RestApi</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
      Other similar extension points exist, see Microsoft.Common.targets.
