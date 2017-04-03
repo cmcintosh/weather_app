@@ -2,7 +2,7 @@
 <xs:schema xmlns:android="http://schemas.android.com/apk/res/android" attributeFormDefault="qualified" elementFormDefault="unqualified" targetNamespace="http://schemas.android.com/apk/res/android" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v23</xs:documentation>
-    <xs:documentation>4/3/2017 12:09:51 PM</xs:documentation>
+    <xs:documentation>4/3/2017 2:34:47 PM</xs:documentation>
   </xs:annotation>
   <xs:attribute name="accessibilityLiveRegion">
     <xs:annotation>
@@ -16717,8 +16717,6 @@
             <xs:enumeration value="@+id/" />
             <xs:enumeration value="@+id/checkBox1" />
             <xs:enumeration value="@id/condText" />
-            <xs:enumeration value="@id/editText1" />
-            <xs:enumeration value="@id/getWeatherButton" />
             <xs:enumeration value="@id/humidText" />
             <xs:enumeration value="@id/linearLayout1" />
             <xs:enumeration value="@id/locationText" />

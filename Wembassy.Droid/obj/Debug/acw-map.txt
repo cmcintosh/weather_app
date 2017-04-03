@@ -1,4 +1,0 @@
-Wembassy.Droid.MainActivity, Wembassy.Droid;md5628f048739d29660a3ed1526c1c14c71.MainActivity
-Wembassy.Droid.MainActivity, Wembassy.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5628f048739d29660a3ed1526c1c14c71.MainActivity
-Wembassy.Droid.MainActivity;md5628f048739d29660a3ed1526c1c14c71.MainActivity
-wembassy.droid.MainActivity;md5628f048739d29660a3ed1526c1c14c71.MainActivity

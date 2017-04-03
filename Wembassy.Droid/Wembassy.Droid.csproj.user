@@ -3,4 +3,8 @@
   <PropertyGroup>
     <AndroidDesignerPreferredDevice>Nexus 4</AndroidDesignerPreferredDevice>
   </PropertyGroup>
+  <PropertyGroup>
+    <ReferencePath>
+    </ReferencePath>
+  </PropertyGroup>
 </Project>

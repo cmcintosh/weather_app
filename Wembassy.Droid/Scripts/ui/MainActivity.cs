@@ -1,6 +1,7 @@
 ﻿using Android.App;
 using Android.Widget;
 using Android.OS;
+using Wembassy;
 
 namespace Wembassy.Droid
 {
@@ -12,9 +13,17 @@ namespace Wembassy.Droid
             base.OnCreate(bundle);
 
             // Set our view from the "main" layout resource
-            SetContentView(Resource.Layout.Main);
-            
+            SetContentView(Resource.Layout.Main);     
+
+
+            // Event Handlers.
+            TextView temperature = FindViewById<TextView>(Resource.Id.tempText);
+
+            temperature.Text = "Location";        
+                
         }
+       
+        
     }
 }
 
