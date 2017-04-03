@@ -1,0 +1,14 @@
+C:\Users\WalkingDead\Documents\apps\Wembassy.Droid\bin\Debug\Wembassy.Droid.dll
+C:\Users\WalkingDead\Documents\apps\Wembassy.Droid\bin\Debug\Wembassy.Droid.pdb
+C:\Users\WalkingDead\Documents\apps\Wembassy.Droid\bin\Debug\Wembassy.Droid.Wembassy.Droid.apk
+C:\Users\WalkingDead\Documents\apps\Wembassy.Droid\bin\Debug\Wembassy.Droid.Wembassy.Droid-Signed.apk
+C:\Users\WalkingDead\Documents\apps\Wembassy.Droid\obj\Debug\Wembassy.Droid.dll
+C:\Users\WalkingDead\Documents\apps\Wembassy.Droid\obj\Debug\Wembassy.Droid.pdb
+C:\Users\WalkingDead\Documents\apps\Wembassy.Droid\obj\Debug\android\bin\Wembassy.Droid.Wembassy.Droid.apk
+C:\Users\WalkingDead\Documents\apps\Wembassy.Droid\obj\Debug\res\layout\main.xml
+C:\Users\WalkingDead\Documents\apps\Wembassy.Droid\obj\Debug\res\values\strings.xml
+C:\Users\WalkingDead\Documents\apps\Wembassy.Droid\obj\Debug\res\drawable\icon.png
+C:\Users\WalkingDead\Documents\apps\Wembassy.Droid\obj\Debug\R.cs.flag
+C:\Users\WalkingDead\Documents\apps\Wembassy.Droid\obj\Debug\uploadflags.txt
+C:\Users\WalkingDead\Documents\apps\Wembassy.Droid\obj\Debug\Wembassy.Droid.dll.mdb
+C:\Users\WalkingDead\Documents\apps\Wembassy.Droid\bin\Debug\Wembassy.Droid.dll.mdb

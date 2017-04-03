@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace RestApi.Properties
+namespace Wembassy.Properties
 {
 
 

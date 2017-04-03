@@ -8,3 +8,13 @@ C:\Users\user\Documents\Visual Studio 2015\Projects\RestApi\RestApi\obj\Debug\Re
 C:\Users\user\Documents\Visual Studio 2015\Projects\RestApi\RestApi\obj\Debug\RestApi.csproj.GenerateResource.Cache
 C:\Users\user\Documents\Visual Studio 2015\Projects\RestApi\RestApi\obj\Debug\RestApi.exe
 C:\Users\user\Documents\Visual Studio 2015\Projects\RestApi\RestApi\obj\Debug\RestApi.pdb
+C:\Users\WalkingDead\Documents\apps\RestApi\bin\Debug\RestApi.exe.config
+C:\Users\WalkingDead\Documents\apps\RestApi\obj\Debug\RestApi.exe
+C:\Users\WalkingDead\Documents\apps\RestApi\obj\Debug\RestApi.pdb
+C:\Users\WalkingDead\Documents\apps\RestApi\obj\Debug\RestApi.Properties.Resources.resources
+C:\Users\WalkingDead\Documents\apps\RestApi\obj\Debug\RestApi.csproj.GenerateResource.Cache
+C:\Users\WalkingDead\Documents\apps\RestApi\bin\Debug\RestApi.exe
+C:\Users\WalkingDead\Documents\apps\RestApi\bin\Debug\RestApi.pdb
+C:\Users\WalkingDead\Documents\apps\RestApi\bin\Debug\Newtonsoft.Json.dll
+C:\Users\WalkingDead\Documents\apps\RestApi\bin\Debug\Newtonsoft.Json.xml
+C:\Users\WalkingDead\Documents\apps\RestApi\obj\Debug\Wembassy.Form1.resources
