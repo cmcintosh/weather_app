@@ -37,4 +37,4 @@ C:\Users\WalkingDead\Documents\apps\Wembassy.Droid\obj\Debug\android\assets\Syst
 C:\Users\WalkingDead\Documents\apps\Wembassy.Droid\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
 C:\Users\WalkingDead\Documents\apps\Wembassy.Droid\obj\Debug\android\assets\Wembassy.Droid.dll.mdb
 C:\Users\WalkingDead\Documents\apps\Wembassy.Droid\obj\Debug\Wembassy.Droid.dll.mdb
-C:\Users\WalkingDead\Documents\apps\Wembassy.Droid\bin\Debug\Wembassy.Droid.dll.mdb
+C:\Users\WalkingDead\Documents\apps\Wembassy.Droid\obj\Debug\Wembassy.Droid.csprojResolveAssemblyReference.cache

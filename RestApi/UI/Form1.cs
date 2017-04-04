@@ -57,8 +57,8 @@ namespace Wembassy
         //Displays the current weather forecast.
         public void CurrentWeather()
         {
-            WeatherAPI.RootObject rClient = new WeatherAPI.RootObject();
-            rClient = RestClient.makeRequest(txtCityID.Text);
+            //WeatherAPI.RootObject rClient = new WeatherAPI.RootObject();
+            WeatherAPI.RootObject rClient = RestClient.makeRequest(txtCityID.Text);
             cache = rClient;
             
             lblLon.Text = rClient.coord.lon.ToString();

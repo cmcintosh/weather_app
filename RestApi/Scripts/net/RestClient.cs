@@ -39,14 +39,23 @@ namespace Wembassy
             HttpWebRequest request = WebRequest.CreateHttp(actionUrl);
             request.Method = httpverb.GET.ToString();
             HttpWebResponse response = (HttpWebResponse)request.GetResponse();
-            var dataStream = response.GetResponseStream();
-            StreamReader reader = new StreamReader(dataStream);
-            object objResponse = reader.ReadToEnd();
+            if (response.StatusCode == HttpStatusCode.Unauthorized)
+            {
+                MessageBox.Show(HttpStatusCode.Unauthorized.ToString());
+            }
+            else
+            {
+                var dataStream = response.GetResponseStream();
+                StreamReader reader = new StreamReader(dataStream);
+                object objResponse = reader.ReadToEnd();
 
-            WeatherAPI.RootObject weat = JsonConvert.DeserializeObject<WeatherAPI.RootObject>(objResponse.ToString());
-            response.Close();
+                WeatherAPI.RootObject weat = JsonConvert.DeserializeObject<WeatherAPI.RootObject>(objResponse.ToString());
+                response.Close();
 
-            return weat;
+                return weat;
+            }
+            return null;
+           
         }
 
         // Five days forecast.
