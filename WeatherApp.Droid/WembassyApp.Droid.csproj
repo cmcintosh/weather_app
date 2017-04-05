@@ -62,8 +62,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Scripts\net\ApiCall.cs" />
-    <Compile Include="Scripts\net\CurrentDayForecast.cs" />
-    <Compile Include="Scripts\net\SevenDayForecast.cs" />
     <Compile Include="Scripts\net\Urls.cs" />
     <Compile Include="Scripts\ui\MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
@@ -93,6 +91,12 @@
     <Folder Include="Scripts\analytics\" />
     <Folder Include="Scripts\errors\" />
     <Folder Include="Scripts\events\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RestApi\RestApi.csproj">
+      <Project>{b66ee8fe-499b-40fb-85c0-0178b6566d95}</Project>
+      <Name>RestApi</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

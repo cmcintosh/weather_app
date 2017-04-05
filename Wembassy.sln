@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestApi", "RestApi\RestApi.csproj", "{B66EE8FE-499B-40FB-85C0-0178B6566D95}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WembassyApp.Droid", "WeatherApp.Droid\WembassyApp.Droid.csproj", "{012367A7-CD75-4488-8880-D4258754523F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B66EE8FE-499B-40FB-85C0-0178B6566D95} = {B66EE8FE-499B-40FB-85C0-0178B6566D95}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

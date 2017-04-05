@@ -2,9 +2,11 @@
 using Android.Widget;
 using Android.OS;
 using System.Collections.Generic;
+using Wembassy;
+
 namespace WeatherApp.Droid
 {
-    [Activity(Label = "Wembassy Weather App", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "Wembassy Weather Application", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity
     {
         protected override void OnCreate(Bundle bundle)
@@ -26,11 +28,11 @@ namespace WeatherApp.Droid
         // Create a Call to CurrentDay Class in ApiCall
         public void CurrentDay(string location)
         {
-            Scripts.net.CurrentDayForecast.RootObject currentForecast = Scripts.net.ApiCall.CurrentDay(location);
-            List<Scripts.net.CurrentDayForecast.Weather> waw = currentForecast.weather;
+            WeatherAPI.RootObject currentForecast = RestClient.makeRequest(location);
+            List<WeatherAPI.Weather> waw = currentForecast.weather;
             if (waw != null)
             {
-                waw.ForEach(delegate (Scripts.net.CurrentDayForecast.Weather todaysForecast)
+                waw.ForEach(delegate (WeatherAPI.Weather todaysForecast)
                 {
                     TextView tv1 = FindViewById<TextView>(Resource.Id.tvTemp);
                     tv1.Text = todaysForecast.description;

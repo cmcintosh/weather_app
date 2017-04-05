@@ -11,9 +11,8 @@ using System.Windows.Forms;
 namespace Wembassy
 {
    
-    class RestClient : WeatherAPI
-    {    
-           
+    public class RestClient : WeatherAPI
+    {           
         // Web Request Methods.
         public enum httpverb
         {
@@ -23,7 +22,7 @@ namespace Wembassy
             DELETE
         }
 
-        private static string baseUrl = "http://api.openweathermap.org/data/2.5/weather?id=";
+        private static string baseUrl = "http://api.openweathermap.org/data/2.5/weather?q=";
 
         private static string forecastUrl = "http://samples.openweathermap.org/data/2.5/forecast?";
 
@@ -33,29 +32,28 @@ namespace Wembassy
         }
 
         // Returns the Weather Forecast today.        
-        public static WeatherAPI.RootObject makeRequest(string id)
+        public static WeatherAPI.RootObject makeRequest(string value)
         {
-            string actionUrl = baseUrl + id + "&appid=98d8eb3d190051551f5cdbb079b6670d";
+            string actionUrl = baseUrl + value + "&appid=98d8eb3d190051551f5cdbb079b6670d";
             HttpWebRequest request = WebRequest.CreateHttp(actionUrl);
             request.Method = httpverb.GET.ToString();
-            HttpWebResponse response = (HttpWebResponse)request.GetResponse();
-            if (response.StatusCode == HttpStatusCode.Unauthorized)
-            {
-                MessageBox.Show(HttpStatusCode.Unauthorized.ToString());
-            }
-            else
-            {
-                var dataStream = response.GetResponseStream();
-                StreamReader reader = new StreamReader(dataStream);
-                object objResponse = reader.ReadToEnd();
+            try { 
+                using (HttpWebResponse response = (HttpWebResponse)request.GetResponse()) { 
 
-                WeatherAPI.RootObject weat = JsonConvert.DeserializeObject<WeatherAPI.RootObject>(objResponse.ToString());
-                response.Close();
+                    var dataStream = response.GetResponseStream();
+                    StreamReader reader = new StreamReader(dataStream);
+                    object objResponse = reader.ReadToEnd();
 
-                return weat;
+                    WeatherAPI.RootObject weat = JsonConvert.DeserializeObject<WeatherAPI.RootObject>(objResponse.ToString());
+                    response.Close();
+
+                    return weat;
+                }
             }
-            return null;
-           
+            catch (WebException ex)
+            {
+                return new WeatherAPI.RootObject();
+            }
         }
 
         // Five days forecast.
@@ -65,17 +63,28 @@ namespace Wembassy
             string url = forecastUrl + id + "&appid=98d8eb3d190051551f5cdbb079b6670d";
             HttpWebRequest request = WebRequest.CreateHttp(url);
             request.Method = httpverb.GET.ToString();
-            var response = request.GetResponse();
 
-            var dataStream = response.GetResponseStream();
-            StreamReader reader = new StreamReader(dataStream);
-            object objResponse = reader.ReadToEnd();
+            try
+            {
+                using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
+                {
 
-            fdf = JsonConvert.DeserializeObject<FiveDaysForecast.RootObject>(objResponse.ToString());
-            response.Close();
+                    var dataStream = response.GetResponseStream();
+                    StreamReader reader = new StreamReader(dataStream);
+                    object objResponse = reader.ReadToEnd();
 
-            return fdf;
+                    fdf = JsonConvert.DeserializeObject<FiveDaysForecast.RootObject>(objResponse.ToString());
+                    response.Close();
+
+                    return fdf;
+                }
+            }
+            catch (WebException ex)
+            {
+               
+                Console.Out.WriteLine(ex.Status);
+                return new FiveDaysForecast.RootObject();
+            }
         }
-       
     }
 }

@@ -11,6 +11,7 @@ C:\Users\WalkingDead\Documents\apps\WeatherApp.Droid\obj\Debug\android\assets\Sy
 C:\Users\WalkingDead\Documents\apps\WeatherApp.Droid\obj\Debug\android\assets\System.Xml.Linq.dll
 C:\Users\WalkingDead\Documents\apps\WeatherApp.Droid\obj\Debug\android\assets\Newtonsoft.Json.dll
 C:\Users\WalkingDead\Documents\apps\WeatherApp.Droid\obj\Debug\android\assets\System.Windows.Forms.dll
+C:\Users\WalkingDead\Documents\apps\WeatherApp.Droid\obj\Debug\android\assets\Wembassy.dll
 C:\Users\WalkingDead\Documents\apps\WeatherApp.Droid\obj\Debug\android\assets\System.Threading.dll
 C:\Users\WalkingDead\Documents\apps\WeatherApp.Droid\obj\Debug\android\assets\System.Runtime.dll
 C:\Users\WalkingDead\Documents\apps\WeatherApp.Droid\obj\Debug\android\assets\System.ComponentModel.Composition.dll

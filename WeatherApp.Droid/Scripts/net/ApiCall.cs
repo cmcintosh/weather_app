@@ -13,6 +13,7 @@ using System.Net;
 using System.IO;
 using Newtonsoft.Json;
 using System.Windows.Forms;
+using Wembassy;
 
 namespace WeatherApp.Droid.Scripts.net
 {
@@ -29,9 +30,10 @@ namespace WeatherApp.Droid.Scripts.net
         }
      
         // Return Seven Days Forecast.
-        public static SevenDayForecast.RootObject SevenDays(string value)
+        public static FiveDaysForecast.RootObject SevenDays(string value)
         {
-            SevenDayForecast.RootObject sevendays = new SevenDayForecast.RootObject();
+
+            FiveDaysForecast.RootObject sevendays = new FiveDaysForecast.RootObject();
             HttpWebRequest request = WebRequest.CreateHttp("");
             request.Method = httpverb.GET.ToString();
             var response = request.GetResponse();
@@ -40,40 +42,35 @@ namespace WeatherApp.Droid.Scripts.net
             StreamReader reader = new StreamReader(dataStream);
             object objReader = reader.ReadToEnd();
 
-            sevendays = Newtonsoft.Json.JsonConvert.DeserializeObject<SevenDayForecast.RootObject>(objReader.ToString());
+            sevendays = Newtonsoft.Json.JsonConvert.DeserializeObject<FiveDaysForecast.RootObject>(objReader.ToString());
             response.Close();
 
             return sevendays;          
         }
 
         // Returns the Current Day Forecast
-        public static CurrentDayForecast.RootObject CurrentDay(string value)
+        public static WeatherAPI.RootObject CurrentDay(string value)
         {
             HttpWebRequest request = WebRequest.CreateHttp(Urls.baseUrl + value + Urls.APP_ID);
             request.Method = httpverb.GET.ToString();
             try
             {
                 using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
-                {
-                    if (response.StatusCode != HttpStatusCode.OK)
-                    {
-                        //appropriate task
-                    }
-
+                {                    
                     var dataStream = response.GetResponseStream();
                     StreamReader reader = new StreamReader(dataStream);
                     object objReader = reader.ReadToEnd();
 
-                    CurrentDayForecast.RootObject currentday = JsonConvert.DeserializeObject<CurrentDayForecast.RootObject>(objReader.ToString());
+                    WeatherAPI.RootObject currentday = JsonConvert.DeserializeObject<WeatherAPI.RootObject>(objReader.ToString());
                     response.Close();
                     return currentday;
                 }
             }
             catch (System.Net.WebException e)
             {
-               
-                // We should display an error modal here.
-                return new CurrentDayForecast.RootObject();
+
+                // We should display an error modal here.;
+                return new WeatherAPI.RootObject();
             }
                              
         }

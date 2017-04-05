@@ -101,6 +101,7 @@ class MonoPackageManager_Resources {
 		"WeatherApp.Droid.dll",
 		"Newtonsoft.Json.dll",
 		"System.Windows.Forms.dll",
+		"Wembassy.dll",
 		"System.Threading.dll",
 		"System.Runtime.dll",
 		"System.Collections.dll",
