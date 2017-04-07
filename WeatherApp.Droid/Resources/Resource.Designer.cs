@@ -45,7 +45,31 @@ namespace WeatherApp.Droid
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
+			public const int bg1 = 2130837504;
+			
+			// aapt resource value: 0x7f020001
+			public const int CelsiusLabel = 2130837505;
+			
+			// aapt resource value: 0x7f020002
+			public const int ChangeLocationBn = 2130837506;
+			
+			// aapt resource value: 0x7f020003
+			public const int CurrentWeatherCover = 2130837507;
+			
+			// aapt resource value: 0x7f020004
+			public const int FarenheitLabel = 2130837508;
+			
+			// aapt resource value: 0x7f020005
+			public const int ForecastWeatherCover = 2130837509;
+			
+			// aapt resource value: 0x7f020006
+			public const int Icon = 2130837510;
+			
+			// aapt resource value: 0x7f020007
+			public const int SlideToggleBackground = 2130837511;
+			
+			// aapt resource value: 0x7f020008
+			public const int WembassyLogo = 2130837512;
 			
 			static Drawable()
 			{
@@ -60,29 +84,56 @@ namespace WeatherApp.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050007
-			public const int button1 = 2131034119;
+			// aapt resource value: 0x7f050002
+			public const int button1 = 2131034114;
+			
+			// aapt resource value: 0x7f050008
+			public const int editText1 = 2131034120;
+			
+			// aapt resource value: 0x7f05000a
+			public const int imageView1 = 2131034122;
+			
+			// aapt resource value: 0x7f05000c
+			public const int imageView2 = 2131034124;
+			
+			// aapt resource value: 0x7f050010
+			public const int imageView3 = 2131034128;
+			
+			// aapt resource value: 0x7f05000e
+			public const int imageView4 = 2131034126;
+			
+			// aapt resource value: 0x7f050000
+			public const int linearLayout1 = 2131034112;
+			
+			// aapt resource value: 0x7f050004
+			public const int linearLayout2 = 2131034116;
 			
 			// aapt resource value: 0x7f050005
-			public const int editText1 = 2131034117;
+			public const int linearLayout4 = 2131034117;
+			
+			// aapt resource value: 0x7f050009
+			public const int linearLayout5 = 2131034121;
+			
+			// aapt resource value: 0x7f05000b
+			public const int linearLayout7 = 2131034123;
+			
+			// aapt resource value: 0x7f05000d
+			public const int linearLayout8 = 2131034125;
 			
 			// aapt resource value: 0x7f050001
-			public const int linearLayout1 = 2131034113;
+			public const int linearLayout9 = 2131034113;
 			
 			// aapt resource value: 0x7f050006
 			public const int space1 = 2131034118;
 			
-			// aapt resource value: 0x7f050004
-			public const int space2 = 2131034116;
+			// aapt resource value: 0x7f05000f
+			public const int switch2 = 2131034127;
+			
+			// aapt resource value: 0x7f050007
+			public const int textView1 = 2131034119;
 			
 			// aapt resource value: 0x7f050003
-			public const int space3 = 2131034115;
-			
-			// aapt resource value: 0x7f050002
-			public const int textView1 = 2131034114;
-			
-			// aapt resource value: 0x7f050000
-			public const int tvTemp = 2131034112;
+			public const int tvTemp = 2131034115;
 			
 			static Id()
 			{
@@ -118,6 +169,9 @@ namespace WeatherApp.Droid
 			
 			// aapt resource value: 0x7f040000
 			public const int Hello = 2130968576;
+			
+			// aapt resource value: 0x7f040002
+			public const int button1 = 2130968578;
 			
 			static String()
 			{

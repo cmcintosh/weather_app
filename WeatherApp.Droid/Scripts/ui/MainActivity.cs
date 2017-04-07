@@ -3,6 +3,8 @@ using Android.Widget;
 using Android.OS;
 using System.Collections.Generic;
 using Wembassy;
+using System;
+using Android.Views;
 
 namespace WeatherApp.Droid
 {
@@ -15,7 +17,7 @@ namespace WeatherApp.Droid
 
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
-           
+
             EditText et1 = FindViewById<EditText>(Resource.Id.editText1);
             Button btn1 = FindViewById<Button>(Resource.Id.button1);
 
@@ -23,7 +25,8 @@ namespace WeatherApp.Droid
             {
                 CurrentDay(et1.Text);
             };
-        }
+         }
+
 
         // Create a Call to CurrentDay Class in ApiCall
         public void CurrentDay(string location)
@@ -41,9 +44,13 @@ namespace WeatherApp.Droid
             else
             {
                 TextView tv1 = FindViewById<TextView>(Resource.Id.tvTemp);
-                tv1.Text = "City or Location not found.";
+                tv1.Text = "could not connect to the service City or Location not found.";
             }
-        } 
-    }
+        }
+
+       
+    }   
+    
+     
 }
 

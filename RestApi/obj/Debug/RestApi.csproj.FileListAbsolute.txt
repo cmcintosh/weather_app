@@ -3,16 +3,11 @@ C:\Users\WalkingDead\Documents\apps\RestApi\bin\Debug\Wembassy.dll
 C:\Users\WalkingDead\Documents\apps\RestApi\bin\Debug\Wembassy.pdb
 C:\Users\WalkingDead\Documents\apps\RestApi\bin\Debug\Newtonsoft.Json.dll
 C:\Users\WalkingDead\Documents\apps\RestApi\bin\Debug\Newtonsoft.Json.xml
-C:\Users\WalkingDead\Documents\apps\RestApi\obj\Debug\RestApi.csprojResolveAssemblyReference.cache
 C:\Users\WalkingDead\Documents\apps\RestApi\obj\Debug\Wembassy.Form1.resources
 C:\Users\WalkingDead\Documents\apps\RestApi\obj\Debug\Wembassy.Properties.Resources.resources
 C:\Users\WalkingDead\Documents\apps\RestApi\obj\Debug\RestApi.csproj.GenerateResource.Cache
 C:\Users\WalkingDead\Documents\apps\RestApi\obj\Debug\Wembassy.dll
 C:\Users\WalkingDead\Documents\apps\RestApi\obj\Debug\Wembassy.pdb
-C:\Users\WalkingDead\Documents\apps\RestApi\obj\Debug\Wembassy.dll.mdb
-C:\Users\WalkingDead\Documents\apps\RestApi\bin\Debug\Wembassy.dll.mdb
-C:\Users\WalkingDead\Documents\apps\RestApi\obj\Debug\Wembassy.dll.mdb
-C:\Users\WalkingDead\Documents\apps\RestApi\bin\Debug\Wembassy.dll.mdb
 C:\Users\WalkingDead\Documents\apps\RestApi\obj\Debug\Wembassy.dll.mdb
 C:\Users\WalkingDead\Documents\apps\RestApi\bin\Debug\Wembassy.dll.mdb
 C:\Users\WalkingDead\Documents\apps\RestApi\obj\Debug\Wembassy.dll.mdb

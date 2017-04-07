@@ -2,7 +2,7 @@
 <xs:schema xmlns:android="http://schemas.android.com/apk/res/android" attributeFormDefault="qualified" elementFormDefault="unqualified" targetNamespace="http://schemas.android.com/apk/res/android" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v23</xs:documentation>
-    <xs:documentation>4/5/2017 2:14:50 PM</xs:documentation>
+    <xs:documentation>4/7/2017 12:54:46 PM</xs:documentation>
   </xs:annotation>
   <xs:attribute name="accessibilityLiveRegion">
     <xs:annotation>
@@ -773,7 +773,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -1405,7 +1413,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -2076,7 +2092,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -2437,7 +2461,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -2749,7 +2781,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -3371,7 +3411,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -3606,6 +3654,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/button1" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -3647,6 +3696,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/button1" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -3687,7 +3737,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -4019,7 +4077,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -4254,6 +4320,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/button1" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -4294,7 +4361,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -4546,7 +4621,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -4781,6 +4864,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/button1" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -5116,7 +5200,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -5532,7 +5624,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -5858,6 +5958,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/button1" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -5914,7 +6015,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -6149,6 +6258,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/button1" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -6351,7 +6461,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -6663,7 +6781,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -6975,7 +7101,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -7327,7 +7461,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -7639,7 +7781,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -8061,7 +8211,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -8429,7 +8587,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -8705,7 +8871,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -9139,7 +9313,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -9547,7 +9729,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -10073,7 +10263,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -10537,7 +10735,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -10850,6 +11056,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/button1" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -10891,6 +11098,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/button1" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -10971,7 +11179,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -11459,6 +11675,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/button1" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -11500,6 +11717,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/button1" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -11541,6 +11759,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/button1" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -11581,7 +11800,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -11815,7 +12042,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -12049,7 +12284,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -12283,7 +12526,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -12517,7 +12768,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -12751,7 +13010,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -12985,7 +13252,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -13219,7 +13494,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -13647,7 +13930,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -13908,7 +14199,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -14142,7 +14441,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -14376,7 +14683,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -14610,7 +14925,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -14884,7 +15207,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -15118,7 +15449,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -15430,7 +15769,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -15704,7 +16051,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -16029,7 +16384,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -16263,7 +16626,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -16578,6 +16949,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/button1" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -16718,10 +17090,19 @@
             <xs:enumeration value="@+id/checkBox1" />
             <xs:enumeration value="@id/button1" />
             <xs:enumeration value="@id/editText1" />
+            <xs:enumeration value="@id/imageView1" />
+            <xs:enumeration value="@id/imageView2" />
+            <xs:enumeration value="@id/imageView3" />
+            <xs:enumeration value="@id/imageView4" />
             <xs:enumeration value="@id/linearLayout1" />
+            <xs:enumeration value="@id/linearLayout2" />
+            <xs:enumeration value="@id/linearLayout4" />
+            <xs:enumeration value="@id/linearLayout5" />
+            <xs:enumeration value="@id/linearLayout7" />
+            <xs:enumeration value="@id/linearLayout8" />
+            <xs:enumeration value="@id/linearLayout9" />
             <xs:enumeration value="@id/space1" />
-            <xs:enumeration value="@id/space2" />
-            <xs:enumeration value="@id/space3" />
+            <xs:enumeration value="@id/switch2" />
             <xs:enumeration value="@id/textView1" />
             <xs:enumeration value="@id/tvTemp" />
             <xs:enumeration value="@android:id/accessibilityActionContextClick" />
@@ -16798,7 +17179,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -17051,6 +17440,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/button1" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -17142,7 +17532,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -17471,7 +17869,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -18033,7 +18439,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -18268,6 +18682,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/button1" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -18353,7 +18768,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -18747,7 +19170,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -19101,7 +19532,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -19351,7 +19790,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -20046,7 +20493,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -20402,7 +20857,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -20727,6 +21190,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/button1" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -20925,6 +21389,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/button1" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -21180,6 +21645,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/button1" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -21392,7 +21858,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -21638,7 +22112,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -21873,6 +22355,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/button1" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -21913,7 +22396,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -22187,7 +22678,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -22421,7 +22920,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -22655,7 +23162,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -22889,7 +23404,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -23123,7 +23646,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -23775,6 +24306,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/button1" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -23830,7 +24362,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -24081,7 +24621,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -24393,7 +24941,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -25098,7 +25654,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -25450,7 +26014,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -25697,6 +26269,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/button1" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -25865,7 +26438,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -26209,7 +26790,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -26443,7 +27032,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -26678,6 +27275,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/button1" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -27221,7 +27819,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -27455,7 +28061,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -27689,7 +28303,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -27923,7 +28545,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -28337,7 +28967,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -28571,7 +29209,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -28973,7 +29619,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -29207,7 +29861,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -29519,7 +30181,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -30076,6 +30746,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/button1" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -30196,7 +30867,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -30723,7 +31402,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -31093,7 +31780,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -31340,6 +32035,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/button1" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -32278,7 +32974,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -32513,6 +33217,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/button1" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -32553,7 +33258,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -32878,7 +33591,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -33192,7 +33913,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -33426,7 +34155,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -33700,7 +34437,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -33934,7 +34679,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -34169,6 +34922,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/button1" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -34210,6 +34964,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/button1" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -34315,7 +35070,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -34549,7 +35312,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -34861,7 +35632,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -35173,7 +35952,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -35485,7 +36272,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -35797,7 +36592,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -36057,7 +36860,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -36291,7 +37102,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -36525,7 +37344,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -36759,7 +37586,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -36993,7 +37828,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -37308,6 +38151,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/button1" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -37349,6 +38193,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/button1" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -37401,7 +38246,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -37635,7 +38488,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -37869,7 +38730,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -39040,7 +39909,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -39480,6 +40357,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/button1" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -39624,6 +40502,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/button1" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -39864,7 +40743,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -40269,7 +41156,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -40750,6 +41645,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/button1" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -41018,7 +41914,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -41478,7 +42382,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -41728,7 +42640,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -41962,7 +42882,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -42196,7 +43124,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -42508,7 +43444,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -42872,7 +43816,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -43106,7 +44058,15 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bg1" />
+            <xs:enumeration value="@drawable/celsiuslabel" />
+            <xs:enumeration value="@drawable/changelocationbn" />
+            <xs:enumeration value="@drawable/currentweathercover" />
+            <xs:enumeration value="@drawable/farenheitlabel" />
+            <xs:enumeration value="@drawable/forecastweathercover" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/slidetogglebackground" />
+            <xs:enumeration value="@drawable/wembassylogo" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />

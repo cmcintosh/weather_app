@@ -5,7 +5,7 @@
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <application android:label="WeatherApp.Droid" android:name="android.app.Application" android:allowBackup="true" android:icon="@drawable/icon" android:debuggable="true">
-    <activity android:icon="@drawable/icon" android:label="Wembassy Weather App" android:name="md5103475a901fc9d07000a3551b26af717.MainActivity">
+    <activity android:icon="@drawable/icon" android:label="Wembassy Weather Application" android:name="md5103475a901fc9d07000a3551b26af717.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

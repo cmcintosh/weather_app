@@ -24,7 +24,7 @@ namespace Wembassy
 
         private static string baseUrl = "http://api.openweathermap.org/data/2.5/weather?q=";
 
-        private static string forecastUrl = "http://samples.openweathermap.org/data/2.5/forecast?";
+        private static string forecastUrl = "http://samples.openweathermap.org/data/2.5/forecast/daily?q=";
 
         public RestClient()
         {
@@ -57,10 +57,10 @@ namespace Wembassy
         }
 
         // Five days forecast.
-        public static FiveDaysForecast.RootObject fiveDaysForecast(string id)
+        public static FiveDaysForecast.RootObject fiveDaysForecast(string val)
         {
             FiveDaysForecast.RootObject fdf = new FiveDaysForecast.RootObject();
-            string url = forecastUrl + id + "&appid=98d8eb3d190051551f5cdbb079b6670d";
+            string url = forecastUrl + val + "&appid=98d8eb3d190051551f5cdbb079b6670d";
             HttpWebRequest request = WebRequest.CreateHttp(url);
             request.Method = httpverb.GET.ToString();
 
@@ -68,7 +68,6 @@ namespace Wembassy
             {
                 using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
                 {
-
                     var dataStream = response.GetResponseStream();
                     StreamReader reader = new StreamReader(dataStream);
                     object objResponse = reader.ReadToEnd();
@@ -80,9 +79,7 @@ namespace Wembassy
                 }
             }
             catch (WebException ex)
-            {
-               
-                Console.Out.WriteLine(ex.Status);
+            {              
                 return new FiveDaysForecast.RootObject();
             }
         }

@@ -43,14 +43,7 @@ namespace Wembassy
             lblCountry2.Text = forecast.city.country;
             fdfl.ForEach(delegate (FiveDaysForecast.List fff)
             {
-                listBox1.Items.Add("Temperature" + fff.main.temp.ToString() +
-                    "\nTemperature Min=" + fff.main.temp_min +
-                    "\nTemperature Max=" +
-                    "\nPressure:" + fff.main.pressure +
-                    "\nSea Level:" + fff.main.sea_level +
-                    "\nGround Level:" + fff.main.grnd_level +
-                    "\nHumidity:" + fff.main.humidity +
-                    "\nTemp kf:" + fff.main.temp_kf);
+                listBox1.Items.Add("Clouds" + fff.clouds);
             });
         }
 
