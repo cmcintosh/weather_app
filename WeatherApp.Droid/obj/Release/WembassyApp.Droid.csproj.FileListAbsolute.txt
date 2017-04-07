@@ -33,5 +33,13 @@ C:\Users\WalkingDead\Documents\apps\WeatherApp.Droid\obj\Release\res\values\stri
 C:\Users\WalkingDead\Documents\apps\WeatherApp.Droid\obj\Release\res\drawable\icon.png
 C:\Users\WalkingDead\Documents\apps\WeatherApp.Droid\obj\Release\R.cs.flag
 C:\Users\WalkingDead\Documents\apps\WeatherApp.Droid\obj\Release\uploadflags.txt
+C:\Users\WalkingDead\Documents\apps\WeatherApp.Droid\obj\Release\res\drawable\changelocationbn.png
+C:\Users\WalkingDead\Documents\apps\WeatherApp.Droid\obj\Release\res\drawable\currentweathercover.png
+C:\Users\WalkingDead\Documents\apps\WeatherApp.Droid\obj\Release\res\drawable\bg1.png
+C:\Users\WalkingDead\Documents\apps\WeatherApp.Droid\obj\Release\res\drawable\forecastweathercover.png
+C:\Users\WalkingDead\Documents\apps\WeatherApp.Droid\obj\Release\res\drawable\wembassylogo.png
+C:\Users\WalkingDead\Documents\apps\WeatherApp.Droid\obj\Release\res\drawable\slidetogglebackground.png
+C:\Users\WalkingDead\Documents\apps\WeatherApp.Droid\obj\Release\res\drawable\celsiuslabel.png
+C:\Users\WalkingDead\Documents\apps\WeatherApp.Droid\obj\Release\res\drawable\farenheitlabel.png
 C:\Users\WalkingDead\Documents\apps\WeatherApp.Droid\obj\Release\WeatherApp.Droid.dll.mdb
 C:\Users\WalkingDead\Documents\apps\WeatherApp.Droid\bin\Release\WeatherApp.Droid.dll.mdb
